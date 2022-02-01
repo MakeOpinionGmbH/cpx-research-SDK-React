@@ -17,7 +17,7 @@ This SDK is owned by [MakeOpinion GmbH](http://www.makeopinion.com).
 - [For Developers](#for-developers)
 
 # Preview
-![Preview](preview.png "Preview")
+![Preview](https://raw.githubusercontent.com/MakeOpinionGmbH/cpx-research-SDK-React/main/preview.png "Preview")
 
 # Installation
 
@@ -177,7 +177,7 @@ const App = () =>
 export default App;
 ```
 
-**Note**: For a typescript example have a look at the demo app in the ./src sub folder
+**Note**: For a typescript example have a look at the demo app in the ./src sub folder on GitHub.
 
 ## Using the SurveyCards Widget
 The CPXSurveyCards Widget can be configured as follows:
@@ -240,12 +240,3 @@ const App = () =>
   );
 };
 ```
-
-
-# For Developers
-
-If you made changes to the SDK (in the 'src/cpx_research_sdk_react' sub folder), you need to do the following steps in order to publish a new version:
-- change directory into the 'src/cpx_research_sdk_react' sub folder: `cd src/cpx_research_sdk_react`
-- if it exits, delete the src/cpx_research_sdk_react/lib folder
-- run `yarn build` in order to compile the TypeScript Code to regular JavaScript
-- update the version number in the package.json in the sub folder and publish these changes to npm with `npm publish` (still from the sub folder!)
