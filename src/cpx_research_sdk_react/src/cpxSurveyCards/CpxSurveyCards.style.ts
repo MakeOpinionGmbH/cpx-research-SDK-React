@@ -7,8 +7,7 @@ export const wrapper = css`
   display: flex;
   align-items: center;
   flex-direction: row;
-  width: 80%;
-  max-width: 1100px;
+  width: 100%;
   overflow-x: scroll;
   * {
     font-family: sans-serif;
