@@ -1,6 +1,6 @@
 {
   "name": "cpx-research-sdk-react",
-  "version": "0.0.4-beta.0",
+  "version": "0.0.5-beta.0",
   "description": "CPX Research SDK React",
   "main": "lib/index.js",
   "repository": {
