@@ -16,9 +16,9 @@ export const line = css`
   height: ${height}px;
 `;
 
-export const subLine = css`
+export const subLine = (color: string) => css`
   position: absolute;
-  background: #FF9900;
+  background: ${color};
   height: ${height}px;
 `;
 

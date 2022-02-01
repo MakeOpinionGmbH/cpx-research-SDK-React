@@ -1,7 +1,7 @@
 import React, {Fragment, useRef, useState} from 'react';
 import './App.css';
 import {emptyTexts, ITexts} from "./cpx_research_sdk_react/src/utils/store";
-import CpxResearch, {CpxSurveyCards} from "./cpx_research_sdk_react/lib";
+import CpxResearch, {CpxSurveyCards} from "./cpx_research_sdk_react/src";
 
 function App()
 {
